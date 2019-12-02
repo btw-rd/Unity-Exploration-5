@@ -1,0 +1,32 @@
+BROADSIDE CHALLENGE by Brendan Ward
+
+This is a basic pinball game based on the broadside mechanic
+of the 1992 Black Rose pinball machine.
+
+==All Objects======
+===================
+The game contains a moving ball, flippers to represent the player,
+a static frame to contain everything (including a target at the top center
+and two intangible lanes to show alignment), and the score display.
+
+==Behavior=========
+===================
+The ball will roll around with gravity towards the bottom of the screen.
+The frame will keep the ball inside. The flippers can hit the ball.
+If the ball touches the grey target at the top center of the screen it will
+be kicked back to its starting position at the top of the rail. Every time
+the target is hit, a point is scored. If the ball falls below the flippers,
+the game is over.
+
+==Controls=========
+===================
+The left and right flippers are controlled by the left and right arrow keys
+respictively. The game can be reset by pressing space.
+
+==Scoring==========
+===================
+1 point is scored by hitting the target at the top of the lane.
+
+==Game Over========
+===================
+The game is over if the ball falls below the flippers. It can be reset with space.
